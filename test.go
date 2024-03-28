@@ -4,5 +4,5 @@ import "fmt"
 
 func main() {
 
-	fmt.Print("Hello, World!")
+	fmt.Print("вот вам и хи-хи ха-ха, девочки")
 }
