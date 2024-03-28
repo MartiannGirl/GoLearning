@@ -4,5 +4,11 @@ import "fmt"
 
 func main() {
 
-	fmt.Print("Моя первая программа на Go!")
+	const (
+		lala = iota ^ 100
+		lolo
+		test = 30
+		test2
+	)
+	fmt.Print(lala, lolo, test, test2)
 }
