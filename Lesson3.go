@@ -11,12 +11,12 @@ const (
 )
 
 // const nextTask int = 1
-const templateLetter string = "Приветики-пистолетики" // global
+const templateLetter string = "Приветики-пистолетики" // global  // task 3.1
 
 func main() {
 	const IdUser int = 2 // local
 	fmt.Println("This User is:", IdUser)
-	fmt.Println("Приветствие: ", templateLetter)
+	fmt.Println("Приветствие: ", templateLetter) // task 3.2
 
 	const nextTask int = 42
 	fmt.Println("Ответ на главный вопрос человечества: ", nextTask) // task 3.3
@@ -33,7 +33,7 @@ func main() {
 	fmt.Println("Task 3.4: ", MuriloBenicio, GiovannaAntonelli, VeraFischer, ReginaldoFaria, JandiraMartini) // task 3.5
 
 	const n int = 5
-	var Param float32 = 3.4 + float32(n)
+	var Param float32 = 3.4 + float32(n) // task 3.6
 
 	fmt.Println(Param)
 
@@ -44,6 +44,6 @@ func main() {
 		d
 		f
 	)
-	fmt.Println(a, b, c, d, f)
+	fmt.Println(a, b, c, d, f) // task 3.7
 
 }
