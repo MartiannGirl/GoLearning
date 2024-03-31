@@ -1,14 +1,18 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
+	var a = 16
+	var b = 3
+	var c = 16 / 3
+	var d = a % b
+	//var d =  ('Результат: ', c, '', 'остаток от деления:', '', 'тип результата: '}
 
-	const (
-		Status1 = "Ooooooo"
-		Status2 = "Lalalala"
-	)
-
-	fmt.Println(Status1, Status2)
+	fmt.Printf("Результат: %d", c)
+	fmt.Printf(", остаток от деления: %d", d)
+	fmt.Printf(", тип результата: %T", c)
 
 }
