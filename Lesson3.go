@@ -10,7 +10,7 @@ const (
 	Chetyre      = 4
 )
 
-const nextTask int = 1
+// const nextTask int = 1
 const templateLetter string = "Приветики-пистолетики" // global
 
 func main() {
@@ -44,7 +44,6 @@ func main() {
 		d
 		f
 	)
-
 	fmt.Println(a, b, c, d, f)
 
 }
