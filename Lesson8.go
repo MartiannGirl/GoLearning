@@ -19,7 +19,6 @@ func main() { // 8.1
 	}
 	fmt.Println("карта map2: ", map2)
 	fmt.Println("Животное: %s, количество: %d (есть в карте: %v)")
-	fmt.Println("map1[\"ley_1\"]: ", map2["key_2"])
 
 	map3 := map[string]string{ //8.3
 		"слон":    "",
