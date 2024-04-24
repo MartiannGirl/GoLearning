@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*type kolvo int // недоделано 9.1
 
 
@@ -37,24 +35,48 @@ func main() {
 	//fmt.Println("Сумма: ", sum)
 }
 */
+/*
 func main() { // 9.2 еще не разобралась до конца
-	s1 := []int{1, 2, 3}
+	s1 := []int{1, 2, 3, 4}
 	for i := 0; i < len(s1); i++ {
-		//fmt.Println(s1[i], len(s1))
+
 	SOME_LABEL:
-		for j := 0; j < 3; j++ {
-			//fmt.Println(s1[j])
-			for n := 0; n < 2; n++ {
-				//if n == 1 {
-				//	break SOME_LABEL
-				//}
-				for k := 0; k < 1; k++ {
-					fmt.Println("v", s1[j])
-					if k == 4 {
-						break SOME_LABEL
+		for j := 0; j < 4; j++ {
+			//fmt.Println("v", s1[i])
+			for n := 0; n < 3; n++ {
+				//
+				for m := 0; m < 2; m++ {
+					//fmt.Println("v", s1[j], s1[m])
+					for k := 0; k < 1; k++ {
+						fmt.Println("v", s1[n], s1[m])
+						if k == 1 {
+							break SOME_LABEL
+						}
 					}
 				}
 			}
 		}
+		//fmt.Println(s1[i])
 	}
 }
+
+*/
+/*
+func (t typeFood) checkFood() string {
+	s1 := []string{"груша", "яблоко", "апельсин", "тыква", "огурец", "помидор"}
+	fmt.Println("Это:", s1)
+	return checkFood()
+}
+func checkFood() string {
+
+	if s1 == {"груша", "яблоко", "апельсин"}
+
+	return s1[1]
+
+}
+func main() {
+
+	//fmt.Println("Это:", checkFood())
+	fmt.Println(checkFood()
+}
+*/
