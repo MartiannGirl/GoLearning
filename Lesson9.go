@@ -37,7 +37,7 @@ func main() {
 	//fmt.Println("Сумма: ", sum)
 }
 */
-func main() { // 9.2
+func main() { // 9.2 еще не разобралась до конца
 	s1 := []int{1, 2, 3}
 	for i := 0; i < len(s1); i++ {
 		fmt.Println(s1[i], len(s1))
