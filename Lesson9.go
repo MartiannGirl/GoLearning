@@ -40,14 +40,16 @@ func main() {
 func main() { // 9.2 еще не разобралась до конца
 	s1 := []int{1, 2, 3}
 	for i := 0; i < len(s1); i++ {
-		fmt.Println(s1[i], len(s1))
+		//fmt.Println(s1[i], len(s1))
 	SOME_LABEL:
 		for j := 0; j < 3; j++ {
 			//fmt.Println(s1[j])
 			for n := 0; n < 2; n++ {
-				//fmt.Println(s1[n])
+				//if n == 1 {
+				//	break SOME_LABEL
+				//}
 				for k := 0; k < 1; k++ {
-					fmt.Println("v", s1[i], s1[j], s1[n], s1[k])
+					fmt.Println("v", s1[j])
 					if k == 4 {
 						break SOME_LABEL
 					}
