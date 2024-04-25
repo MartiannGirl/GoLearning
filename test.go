@@ -1,14 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"unicode/utf8"
+)
 
-func main() {
-
-	const (
-		lala = iota ^ 100
-		lolo
-		test = 30
-		test2
-	)
-	fmt.Print(lala, lolo, test, test2)
+func ToRunes(bytes []byte) []rune {
+	result := []rune{}
+	for i := 0; i < len(bytes); {
+		r, size := utf8.DecodeRune(bytes[i:])
+		result = append(result, r)
+		i += size
+	}
+	return result
 }
