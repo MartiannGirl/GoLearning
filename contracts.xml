@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contracts>
+    <contract>
+        <number>1</number>
+        <landlord>Остап Бендер</landlord>
+        <tenat>Шура Балаганов</tenat>
+    </contract>
+</contracts>
