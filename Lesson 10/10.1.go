@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	msg := fmt.Sprintf("Hello, Dolly! ", "https://vk.com/video-84632605_456242835 ", first.Hello())
+	msg := fmt.Sprintf("Hello, Dolly! ", first.Hello())
 
 	fmt.Println(msg)
 }
