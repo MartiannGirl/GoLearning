@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 )
 
@@ -13,16 +14,19 @@ func do(v any) {
 	a := 10
 	v = 10
 
-	//c := a * v
+	//a += int(v)
+
 	/*
 	   Здесь нужно увеличить значение a на v.
 	   В случае невозможности приведения к int
 	   необходимо сообщить об этом и немедленно
 	   завершить полнение программы.
 	*/
-	if a == 10 {
 
-		log.Fatalf("Please stop it immediately", a)
+	w, ok := v.(int)
+	if !ok {
+		log.Fatalln("please stop it")
 	}
-	//fmt.Println(a)
+	a += w
+	fmt.Println(a)
 }
