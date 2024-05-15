@@ -1,9 +1,13 @@
-// Написать программу, которая импортирует пакет first задачи 8.1, но не использует его логику
-
-// package second
 package main
 
-import "fmt"
+import (
+	"first"
+	"fmt"
+)
+
+func HelloFromFirst() string {
+	return first.Hello()
+}
 
 func main() {
 	fmt.Println("вот такие пироги")
