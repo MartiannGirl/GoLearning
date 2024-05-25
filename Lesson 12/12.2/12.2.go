@@ -28,11 +28,8 @@ func main() {
 }
 func Do(b Bird) {
 	b.Fly()
-	//Do(b)
-	//b.Fly()
 	//здесь нужно дописать код
 	pt := b.(Duck)
 	pt.Swim()
 
-	//fmt.Println("Утка - Умею плавать!")
 }
